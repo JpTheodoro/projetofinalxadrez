@@ -1,11 +1,14 @@
 ﻿using System;
-
+using tabuleiro;
 
 namespace projeto_final {
     class Program {
         static void Main(string[] args) {
 
-            Console.WriteLine("Olá");
+            Posicao P;
+            P = new Posicao(3, 4);
+
+            Console.WriteLine("Posicao: " + P);
             Console.ReadLine();
 
         }
