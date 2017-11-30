@@ -1,4 +1,5 @@
-﻿
+﻿using tabuleiro;
+
 namespace tabuleiro {
     enum Cor 
 
@@ -8,6 +9,6 @@ namespace tabuleiro {
         Azul,
         Vermelha,
         Verde,
-        Laranja
+        Laranja,
     }
 }
