@@ -22,7 +22,7 @@ namespace projeto_final {
                 }
             }
             else {
-                Console.WriteLine("XEQUE MATE!");
+                Console.WriteLine("XEQUEMATE!");
                 Console.WriteLine("Vencedor: " + partida.jogadorAtual);
             }
         }
